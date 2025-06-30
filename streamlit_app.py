@@ -1,3 +1,8 @@
 import streamlit as st
 
-st.write("we're trying to put you live")
+st.set_page_config(
+        page_title= "привет, мама"
+)
+
+st.title("Main page")
+st.sidebar.success("Select a page above")
